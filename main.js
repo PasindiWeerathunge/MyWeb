@@ -17,11 +17,11 @@
 
 			function DispalyValue(){
 
-				let fname, lname;
+				let fname, lname, year;
 						
 						fname = document.getElementById("f_name").value;
 						lname = document.getElementById("L_name").value;
-					   
+					   	year = document.getElementById("A_period").value;
 						
 						document.getElementById("val1").innerHTML = "Welcome "+fname +" " + lname;
 						//document.getElementById("val2").innerHTML = lname;
