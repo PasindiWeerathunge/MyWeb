@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+	<script src="main.js"></script>
+</head>
+<body>
+
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br><br>
+            <label for="f_name">First name:</label>
+            <input type="text" id="f_name" name="f_name" required>
+            <label for="l_name">Last name:</label>
+            <input type="text" id="L_name" name="L_name" required>
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" required>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="tel">Tel.No:</label>
+            <input type="text" id="tel" name="tel" required>
+            <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Course Details</legend>
+            <br><br>
+            <label for="courses">Choose Your Course:</label>
+            <select id="courses" name="courses" size="2" multiple required>
+                <option value="CS">Computer Science</option>
+                <option value="SE">Software Engineering</option>
+                <option value="IS">Information Systems</option>
+                <option value="Net">Networking</option>
+                <option value="Cyb">Cyber Security</option>
+            </select>
+            <br><br>
+            <label for="A_period">Academic Period:</label>
+            <input list="A_period" required>
+            <datalist id="A_period">
+                <option value="1st year">
+                <option value="2nd year">
+                <option value="3rd year">
+                <option value="4th year">
+            </datalist>
+            <br><br>
+        </fieldset>
+
+        <br><br>
+        <label for="comment">Comment:</label><BR>
+        <textarea name="comment" rows="10" cols="30">
+            type here...
+        </textarea><br>
+        <button type="button" onclick="alert('Thank you for your comment')">Submit Comment</button>
+        <br><br>
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+
+
+	<br><br>
+    <p id="dislpayVal1"> </p>
+	<p id="dislpayVal"> </p>	
+
+
+</body>
+</html>
