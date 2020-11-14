@@ -23,8 +23,11 @@
 						lname = document.getElementById("L_name").value;
 					   
 						
-						document.getElementById("val1").innerHTML = "First and Last name is "+fname +" " + lname;
+						document.getElementById("val1").innerHTML = "Welcome "+fname +" " + lname;
 						//document.getElementById("val2").innerHTML = lname;
+
+						document.getElementById("dislpayyear").innerHTML = "You are in "+year;
+						//document.getElementById("dislpayCourses").innerHTML = courses;
 			
 			
 			}
