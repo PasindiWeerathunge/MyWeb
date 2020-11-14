@@ -26,7 +26,7 @@
 						document.getElementById("val1").innerHTML = "Welcome "+fname +" " + lname;
 						//document.getElementById("val2").innerHTML = lname;
 
-						document.getElementById("dislpayyear").innerHTML = "You are in "+year;
+						//document.getElementById("dislpayyear").innerHTML = "You are in "+year;
 						//document.getElementById("dislpayCourses").innerHTML = courses;
 			
 			
