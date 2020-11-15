@@ -1,5 +1,19 @@
+form{
+    border: 3px solid #b4a6a6;
+    width: 40%;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #b47d7d;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+
 input[type=text], input[type=password] {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 20px;
     margin: 20px 0;
     font-size: 15px;
@@ -10,15 +24,15 @@ input[type=text], input[type=password] {
 }
 
 button {
-    width: 50%;
+    /* width: 50%; */
     background-color: #b4a6a6;
     color: black;
-    padding: 15px 20px;
-    margin: 20px 0;
-    border: 2px solid #b4a6a6;
+    /* padding: 15px 20px; */
+    /* margin: 20px 0; */
+    /* border: 2px solid #b4a6a6; */
     cursor: pointer;
     position: relative;
-    left: 25%; 
+    /* left: 75%;  */
     font-size: 15px;
     
     
