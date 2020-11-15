@@ -2,17 +2,21 @@
     <head>
         <title>Login Form</title>
         <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
     </head>
     <body>
         <form action="#" method="POST">
 
             <label for="username">User Name :</label>
-            <input type="text" placeholder="Enter User Name here" name="username" required> 
+            <input type="text" placeholder="Enter User Name here" name="username" id="username" required> 
             
             <label for="pw">Password :</label>
-            <input type="password" name="pw" placeholder="Enter Password here" required>
+            <input type="password" name="pw" placeholder="Enter Password here" id="pw" required>
 
-            <button type="submit">Login</button>
+            <button type="submit" onclick="Login()">Login</button>
         </form>
+
+        <!-- <p id="val1"></p> -->
+
     </body>
 </html>
